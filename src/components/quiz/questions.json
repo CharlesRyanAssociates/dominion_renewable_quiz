@@ -1,0 +1,80 @@
+[
+  {
+    "intro": "Our programs make it easy for you to support renewable energy generated anywhere in the United States.",
+    "title": "Do you have a preference on where the renewable energy you support is generated?",
+    "icon": "q1.png",
+    "answers": [
+      { 
+        "title": "I prefer to support renewable energy generated in the eastern United States.", 
+        "results": ["renewable", "greenPower"],
+        "message": "1-1"
+      },
+      { 
+        "title": "I prefer to support renewable energy generated in or near Virginia. ", 
+        "results": ["renewable", "solar"],
+        "message": "1-2"
+      },
+      { 
+        "title": "I don’t have a preference.", 
+        "results": ["recSelect"],
+        "message": "1-3"
+      }
+    ]
+  },
+  {
+    "intro": "Our programs can include solar, wind, hydro, and biomass, as well as other renewable resources like geothermal, wave, tidal, and more!",
+    "title": "Do you have a preference on the type of renewable resources included in your program?",
+    "icon": "q2.png",
+    "answers": [
+      { 
+        "title": "Renewable resource type doesn’t matter to me.", 
+        "results": ["recSelect", "renewable"],
+        "message": "2-1" 
+      },
+      { 
+        "title": "Renewable resources should be mostly solar, wind, hydro, and biomass.", 
+        "results": ["renewable", "greenPower", "solar"],
+        "message": "2-2"
+      }
+    ]
+  },
+  {
+    "intro": "Some of our renewable programs allow you to cancel at any time, while others require a minimum of a one-year commitment.",
+    "title": "How long are you willing to commit to a renewable program?",
+    "icon": "q3.png",
+    "answers": [
+      { 
+        "title": "I’m comfortable committing to a renewable program for at least a year. ", 
+        "results": ["solar"],
+        "message": "3-1"
+      },
+      { 
+        "title": "I would like to be able to cancel at any time without penalty.", 
+        "results": ["recSelect", "renewable", "greenPower"],
+        "message": "3-2"
+      }
+    ]
+  },
+  {
+    "intro": "Our programs can match 100% of your monthly electricity consumption - or just a portion. Some programs have a \"block\" option which guarantees your monthly fees are fixed and you pay the same amount each month. Either way you're reducing your environmental impact!",
+    "title": "How much of your monthly electricity consumption would you like to match with renewable resources?",
+    "icon": "q4.png",
+    "answers": [
+      { 
+        "title": "All of it! Match 100% of my electricity use for the most environmental impact.", 
+        "results": ["renewable", "recSelect", "greenPower", "solar"],
+        "message": "4-1"
+      },
+      { 
+        "title": "Match a portion of my electricity use for a fixed monthly fee.", 
+        "results": ["recSelect", "greenPower", "solar"],
+        "message": "4-2"
+      },
+      { 
+        "title": "I'm not sure.", 
+        "results": ["recSelect", "renewable", "greenPower", "solar"],
+        "message": "4-3"
+      }
+    ]
+  }
+]

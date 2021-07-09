@@ -1,0 +1,22 @@
+{
+  "recSelect": {
+    "text": "Match a portion or 100% of your monthly electricity consumption with renewable energy at an additional cost of .075 cents per kWh. These RECs can include all types of renewable energy that are sourced from anywhere in the country. ",
+    "icon": "ico_rec_select.png",
+    "link": "https://www.dominionenergy.com/virginia/renewable-energy-programs/rec-select?utm_source=quiz&utm_medium=website&utm_campaign=quiz_responses"
+  },
+  "renewable": {
+    "text": "Match 100% of your monthly electricity consumption with renewable energy at an additional cost of .398 cents per kWh. These RECs will include solar, biomass, and hydro that are sourced from Virginia and North Carolina only. ",
+    "icon": "ico_renewable_energy.png",
+    "link": "https://www.dominionenergy.com/virginia/renewable-energy-programs/all-renewable?utm_source=quiz&utm_medium=website&utm_campaign=quiz_responses"
+  },
+  "greenPower": {
+    "text": "Match a portion or 100% of your monthly electricity consumption with renewable energy at an additional cost of 1.3 cents per kWh. These RECs will include solar, wind, and biomass that are sourced from Virginia and surrounding regions.",
+    "icon": "ico_green_power.png",
+    "link": "https://www.dominionenergy.com/virginia/renewable-energy-programs/green-power?utm_source=quiz&utm_medium=website&utm_campaign=quiz_responses"
+  },
+  "solar": {
+    "text": "Match a portion or 100% of your monthly electricity consumption with solar energy sourced from Virginia at an additional 2.01 cents per kWh.",
+    "icon": "ico_solar.png",
+    "link": "https://www.dominionenergy.com/virginia/renewable-energy-programs/community-solar?utm_source=quiz&utm_medium=website&utm_campaign=quiz_responses"
+  }
+}
