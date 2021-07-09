@@ -1,10 +1,9 @@
 # DOM Energy Quiz
 
-## Add config
+## Configuration
+
+The quiz utilizes a DOM node with the id "energy_quiz", and a data attribute which represents configuration options for assets and the calculator.
 
 ```html
-    <div id="root"></div>    
-    <script src="http://somehost/widget.js"  
-            id="Simple-Widget-Script" 
-            data-config="{'calculatorURL': '....', 'assetURL': '...'}" ></script>
+    <div id="energy_quiz" data-config="{'calculatorURL': '....', 'assetURL': '...'}"></div>    
 ```
